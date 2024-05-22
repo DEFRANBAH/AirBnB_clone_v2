@@ -18,6 +18,3 @@ from datetime import datetime
     if result.succeeded:
         return filename
     else:
-        return None
-)
-
