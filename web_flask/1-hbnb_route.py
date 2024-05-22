@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Starts a Flask web application.
 
 The application listens on 0.0.0.0, port 5000.
@@ -21,4 +21,4 @@ def hbnb():
     return "HBNB"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0")
